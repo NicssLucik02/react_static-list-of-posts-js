@@ -35,11 +35,7 @@ export const App = () => {
   return (
     <section className="App">
       <h1 className="App__title">Static list of posts</h1>
-      <PostList
-        posts={postUpdated}
-        // comments={commentsFromServer}
-        // users={usersFromServer}
-      />
+      <PostList posts={postUpdated} />
     </section>
   );
 };

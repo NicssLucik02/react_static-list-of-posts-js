@@ -2,11 +2,7 @@ import { CommentList } from '../CommentList/CommentList';
 import { UserInfo } from '../UserInfo/UserInfo';
 import './PostInfo.scss';
 
-export const PostInfo = ({
-  post,
-  // user = post?.user,
-  // comments = post?.comments,
-}) => {
+export const PostInfo = ({ post }) => {
   const { title, body, user, comments } = post;
 
   return (
