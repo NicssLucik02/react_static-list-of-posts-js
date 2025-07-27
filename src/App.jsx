@@ -37,8 +37,8 @@ export const App = () => {
       <h1 className="App__title">Static list of posts</h1>
       <PostList
         posts={postUpdated}
-        comments={commentsFromServer}
-        users={usersFromServer}
+        // comments={commentsFromServer}
+        // users={usersFromServer}
       />
     </section>
   );
